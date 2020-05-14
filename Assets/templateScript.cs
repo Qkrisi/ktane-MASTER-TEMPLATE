@@ -31,22 +31,22 @@ public class templateScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-	}
+    }
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 
-	}
+    }
 
     /*
-    bool keypadPress(KMSelectable object) {
-        return false;
+    void keypadPress(KMSelectable object) {
+        
     }
     */
 
     /*
-    bool buttonPress() {
-	return false;
+    void buttonPress() {
+	
     }
     */
 }
