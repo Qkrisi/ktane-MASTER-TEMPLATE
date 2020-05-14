@@ -20,11 +20,11 @@ public class templateScript : MonoBehaviour {
         moduleId = moduleIdCounter++;
         /*
         foreach (KMSelectable object in keypad) {
-            object.OnInteract += () => keypadPress(object);
+            object.OnInteract += delegate () { keypadPress(object); return false; };
         }
         */
 
-        //button.OnInteract += buttonPress;
+        //button.OnInteract += delegate () { buttonPress(); return false; };
 
     }
 
@@ -46,7 +46,11 @@ public class templateScript : MonoBehaviour {
 
     /*
     void buttonPress() {
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> parent of 30dc27a... Made code a bit clearer
     }
     */
 }
