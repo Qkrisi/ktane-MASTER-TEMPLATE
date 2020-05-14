@@ -18,14 +18,16 @@ public class templateScript : MonoBehaviour {
 
     void Awake () {
         moduleId = moduleIdCounter++;
-        /*
+        
+	//for SIMILAR selectables (buttons)
+	/*
         foreach (KMSelectable object in keypad) {
-            object.OnInteract += delegate () { keypadPress(object); return false; };
+            object.OnInteract += () => keypadPress(object);
         }
         */
 
-        //button.OnInteract += delegate () { buttonPress(); return false; };
-
+	//for INDIVIDUAL selectables (buttons)
+        //button.OnInteract += buttonPress;
     }
 
     // Use this for initialization
