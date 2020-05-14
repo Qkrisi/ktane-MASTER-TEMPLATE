@@ -39,18 +39,14 @@ public class templateScript : MonoBehaviour {
     }
 
     /*
-    void keypadPress(KMSelectable object) {
-        
+    bool keypadPress(KMSelectable object) {
+        return false;
     }
     */
 
     /*
-    void buttonPress() {
-<<<<<<< HEAD
-	
-=======
-
->>>>>>> parent of 30dc27a... Made code a bit clearer
+    bool buttonPress() {
+	return false;
     }
     */
 }
