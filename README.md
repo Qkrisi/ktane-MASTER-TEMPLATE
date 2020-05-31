@@ -11,8 +11,15 @@ Basic setup for first-time users:
 - Download this repo (Clone or Download) > (Download ZIP)
 - Download Unity 2017.4.22f1
   Link: https://unity3d.com/unity/qa/lts-releases?version=2017.4&page=2
-- Download an IDE
-  - Visual Studio Link: https://visualstudio.microsoft.com/
+
+### Download an IDE
+
+  **IDEs with .NET build support (for proper auto-complete and custom assemblies):**
+  
+   - (Windows/Mac) Visual Studio Link: https://visualstudio.microsoft.com/
+   - (Linux) MonoDevelop Link: https://www.monodevelop.com/
+  
+  **General purpose IDEs:**
   - Visual Studio Code Link: https://code.visualstudio.com/
   - Atom Link: https://atom.io/
   - Notepad++ (Not recommended as an IDE but is still useful) Link: https://notepad-plus-plus.org/
